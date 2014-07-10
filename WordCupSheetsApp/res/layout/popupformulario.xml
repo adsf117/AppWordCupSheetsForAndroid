@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+     <LinearLayout
+         android:id="@+id/speedBackgound"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" >
+
+         <Button
+             android:id="@+id/btnestado"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Button" />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+         <ImageButton
+             android:id="@+id/btnabircamara"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@android:drawable/ic_menu_camera" />
+
+         <ImageButton
+             android:id="@+id/btncerrarcamara"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@android:drawable/ic_delete"
+             android:visibility="gone" />
+
+         <ImageButton
+             android:id="@+id/btnguardarfoto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@android:drawable/ic_menu_save"
+             android:visibility="gone" />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="top|center"
+         android:orientation="vertical" >
+
+         <FrameLayout
+             android:id="@+id/camera_preview"
+             android:layout_width="321dp"
+             android:layout_height="321dp"
+             android:layout_weight="1"
+             android:visibility="gone" >
+         </FrameLayout>
+
+         <ImageView
+             android:id="@+id/myImage"
+             android:layout_width="321dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="3.29"
+             android:visibility="gone" />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:gravity="center"
+         android:orientation="vertical" >
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/lblmensajecamara" />
+
+     </LinearLayout>
+
+ </LinearLayout>

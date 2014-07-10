@@ -1,0 +1,14 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="fondo">#fffec500</color>
+    <color name="Blanco">#ffffffff</color>
+    <color name="negro">#ff000000</color>
+    <color name="Grisbtn">#ffc0c0c0</color>
+    <color name="btngrisPress">#ffe9e2d1</color>
+    <color name="btnnegroPress">#ff4c4141</color>
+    <color name="Amarillobordes">#fffcf80a</color>
+    <color name="verde">#0FAD00</color>
+    
+
+</resources>

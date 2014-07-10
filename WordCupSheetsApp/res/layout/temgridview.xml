@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:gravity="top|center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@android:string/no"
+        android:src="@drawable/abc_ab_bottom_solid_dark_holo" />
+
+    <ImageView
+        android:id="@+id/ivestado"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/foto"
+        android:contentDescription="@android:string/no"
+        android:src="@android:drawable/ic_delete" />
+
+    <TextView
+        android:id="@+id/lblnombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/foto"
+        android:layout_centerHorizontal="true"
+        
+        android:contentDescription="@android:string/no"
+        android:text="@android:string/no" />
+
+</RelativeLayout>
